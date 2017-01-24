@@ -2,6 +2,8 @@ package dex.bean;
 
 import java.util.HashMap;
 
+import dex.util.Constants;
+
 public class BeanFactory {
 
 	private HashMap<String, BuyedItem> beanFactoryMap;
@@ -37,25 +39,25 @@ public class BeanFactory {
 
 		// CASE 1
 		BuyedItem book = new BuyedItem();
-		book.setName("Book");
+		book.setName(Constants.BOOK);
 		book.setPrice(12.49);
-		book.setType("0");
+		book.setType(Constants.NO_TAXED_ITEM);
 		book.setImported(false);
 		book.setQuantity(1);
 		beanFactoryMap.put("1", book);
 
 		BuyedItem musicCD = new BuyedItem();
-		musicCD.setName("Music CD");
+		musicCD.setName(Constants.MUSIC_CD);
 		musicCD.setPrice(14.99);
-		musicCD.setType("1");
+		musicCD.setType(Constants.TAXED_ITEM);
 		musicCD.setImported(false);
 		musicCD.setQuantity(1);
 		beanFactoryMap.put("2", musicCD);
 
 		BuyedItem chocolateBar = new BuyedItem();
-		chocolateBar.setName("Chocolate Bar");
+		chocolateBar.setName(Constants.CHOCOLATE_BAR);
 		chocolateBar.setPrice(0.85);
-		chocolateBar.setType("0");
+		chocolateBar.setType(Constants.NO_TAXED_ITEM);
 		chocolateBar.setImported(false);
 		chocolateBar.setQuantity(1);
 		beanFactoryMap.put("3", chocolateBar);
@@ -66,17 +68,17 @@ public class BeanFactory {
 
 		//CASE 2
 		BuyedItem choco = new BuyedItem();
-		choco.setName("Imported Box of Chocolate");
+		choco.setName(Constants.IMPORTED_CHOCOLATE);
 		choco.setPrice(10.00);
-		choco.setType("0");
+		choco.setType(Constants.NO_TAXED_ITEM);
 		choco.setImported(true);
 		choco.setQuantity(1);
 		beanFactoryMap.put("1", choco);
 
 		BuyedItem parfume = new BuyedItem();
-		parfume.setName("Imported Bottle of Parfume");
+		parfume.setName(Constants.IMPORTED_PARFUME);
 		parfume.setPrice(47.50);
-		parfume.setType("1");
+		parfume.setType(Constants.TAXED_ITEM);
 		parfume.setImported(true);
 		parfume.setQuantity(1);
 		beanFactoryMap.put("2", parfume);
@@ -87,33 +89,33 @@ public class BeanFactory {
 
 		//CASE 3
 		BuyedItem parfume1 = new BuyedItem();
-		parfume1.setName("Imported Bottle of Parfume");
+		parfume1.setName(Constants.IMPORTED_PARFUME);
 		parfume1.setPrice(27.99);
-		parfume1.setType("1");
+		parfume1.setType(Constants.TAXED_ITEM);
 		parfume1.setImported(true);
 		parfume1.setQuantity(1);
 		beanFactoryMap.put("1", parfume1);
 
 		BuyedItem parfume2 = new BuyedItem();
-		parfume2.setName("Bottle of Parfume");
+		parfume2.setName(Constants.PARFUME);
 		parfume2.setPrice(18.99);
-		parfume2.setType("1");
+		parfume2.setType(Constants.TAXED_ITEM);
 		parfume2.setImported(false);
 		parfume2.setQuantity(1);
 		beanFactoryMap.put("2", parfume2);
 
 		BuyedItem pills = new BuyedItem();
-		pills.setName("Headache Pills");
+		pills.setName(Constants.PILLS);
 		pills.setPrice(9.75);
-		pills.setType("0");
+		pills.setType(Constants.NO_TAXED_ITEM);
 		pills.setImported(false);
 		pills.setQuantity(1);
 		beanFactoryMap.put("3", pills);
 
 		BuyedItem choco2 = new BuyedItem();
-		choco2.setName("Imported Box of Chocolate");
+		choco2.setName(Constants.IMPORTED_CHOCOLATE);
 		choco2.setPrice(11.25);
-		choco2.setType("0");
+		choco2.setType(Constants.NO_TAXED_ITEM);
 		choco2.setImported(true);
 		choco2.setQuantity(1);
 		beanFactoryMap.put("4", choco2);

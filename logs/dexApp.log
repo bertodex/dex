@@ -1,18 +1,18 @@
-2017-01-24 22:34:55 INFO  TaxCalculator:18 - OUTPUT ORDER 1:
-2017-01-24 22:34:55 INFO  TaxCalculator:36 - 1 Book: 12.49
-2017-01-24 22:34:55 INFO  TaxCalculator:36 - 1 Music CD: 16.49
-2017-01-24 22:34:55 INFO  TaxCalculator:36 - 1 Chocolate Bar: 0.85
-2017-01-24 22:34:55 INFO  TaxCalculator:39 - Sales Taxes: 1.5
-2017-01-24 22:34:55 INFO  TaxCalculator:40 - Total: 29.83
-2017-01-24 22:34:55 INFO  TaxCalculator:18 - OUTPUT ORDER 2:
-2017-01-24 22:34:55 INFO  TaxCalculator:36 - 1 Imported Box of Chocolate: 10.5
-2017-01-24 22:34:55 INFO  TaxCalculator:36 - 1 Imported Bottle of Parfume: 54.65
-2017-01-24 22:34:55 INFO  TaxCalculator:39 - Sales Taxes: 7.65
-2017-01-24 22:34:55 INFO  TaxCalculator:40 - Total: 65.15
-2017-01-24 22:34:55 INFO  TaxCalculator:18 - OUTPUT ORDER 3:
-2017-01-24 22:34:55 INFO  TaxCalculator:36 - 1 Imported Bottle of Parfume: 32.19
-2017-01-24 22:34:55 INFO  TaxCalculator:36 - 1 Bottle of Parfume: 20.89
-2017-01-24 22:34:55 INFO  TaxCalculator:36 - 1 Headache Pills: 9.75
-2017-01-24 22:34:55 INFO  TaxCalculator:36 - 1 Imported Box of Chocolate: 11.85
-2017-01-24 22:34:55 INFO  TaxCalculator:39 - Sales Taxes: 6.7
-2017-01-24 22:34:55 INFO  TaxCalculator:40 - Total: 74.68
+2017-01-24 22:53:17 INFO  TaxCalculator:18 - OUTPUT ORDER 1:
+2017-01-24 22:53:17 INFO  TaxCalculator:36 - 1 Book: 12.49
+2017-01-24 22:53:17 INFO  TaxCalculator:36 - 1 Music CD: 16.49
+2017-01-24 22:53:17 INFO  TaxCalculator:36 - 1 Chocolate Bar: 0.85
+2017-01-24 22:53:17 INFO  TaxCalculator:39 - Sales Taxes: 1.5
+2017-01-24 22:53:17 INFO  TaxCalculator:40 - Total: 29.83
+2017-01-24 22:53:17 INFO  TaxCalculator:18 - OUTPUT ORDER 2:
+2017-01-24 22:53:17 INFO  TaxCalculator:36 - 1 Imported Box of Chocolate: 10.5
+2017-01-24 22:53:17 INFO  TaxCalculator:36 - 1 Imported Bottle of Parfume: 54.65
+2017-01-24 22:53:17 INFO  TaxCalculator:39 - Sales Taxes: 7.65
+2017-01-24 22:53:17 INFO  TaxCalculator:40 - Total: 65.15
+2017-01-24 22:53:17 INFO  TaxCalculator:18 - OUTPUT ORDER 3:
+2017-01-24 22:53:17 INFO  TaxCalculator:36 - 1 Imported Bottle of Parfume: 32.19
+2017-01-24 22:53:17 INFO  TaxCalculator:36 - 1 Bottle of Parfume: 20.89
+2017-01-24 22:53:17 INFO  TaxCalculator:36 - 1 Headache Pills: 9.75
+2017-01-24 22:53:17 INFO  TaxCalculator:36 - 1 Imported Box of Chocolate: 11.85
+2017-01-24 22:53:17 INFO  TaxCalculator:39 - Sales Taxes: 6.7
+2017-01-24 22:53:17 INFO  TaxCalculator:40 - Total: 74.68
