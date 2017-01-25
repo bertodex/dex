@@ -21,6 +21,11 @@ public class BeanFactory {
 		this.beanFactoryMap = beanFactoryMap;
 	}
 
+	/**
+	 * Depending on test_case parameter, this factory create a specific input test case (one of the three available).
+	 * After this constructor, hashmap beanFactoryMap will contains all data necessary to test execution.
+	 * @param test_case
+	 */
 	public BeanFactory(int test_case) {
 		beanFactoryMap = new HashMap<String, BuyedItem>();
 		switch (test_case) {

@@ -2,6 +2,12 @@ package dex.bean;
 
 import java.util.List;
 
+/**
+ * Bean referring to a generic order - identified by a name.
+ * It contains a list of BuyedItems and two fields, regarding total price and applied taxation. 
+ * @author Dex
+ *
+ */
 public class Order {
 	
 	private List<BuyedItem> list;

@@ -1,5 +1,11 @@
 package dex.bean;
 
+/**
+ * Bean referring to a generic item inside an order. 
+ * @author Dex
+ *
+ */
+
 public class BuyedItem {
 	
 	private String type;
